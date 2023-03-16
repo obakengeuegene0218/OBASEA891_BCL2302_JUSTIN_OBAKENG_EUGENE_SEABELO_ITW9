@@ -16,6 +16,7 @@ body {
   justify-content: center;
   background-color: #ADC5CF;
   background-image: url(../Images/2.jpg);
+  background-repeat: no-repeat;
 
 }
 
