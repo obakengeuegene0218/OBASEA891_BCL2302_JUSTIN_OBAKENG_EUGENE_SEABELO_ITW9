@@ -13,6 +13,8 @@
     <div class="container">
         <header>
             <div class="Hero-contant">
+                 <source srcset="Images/face.jpg" media="(min-width:300)">
+                <source srcset="Images/head and shoulders" media="(max-width:800px)">
                 <img src="./SRC/Images/me.jpg" class="profile photo" alt="My profile photo">
                 <p>OBAKENG EUGENE SEABELO</p>
 
@@ -122,6 +124,25 @@
             </div>
         </section>
     </div>
-</body>
+    </body>
+<footer>
+    <div class="reason">
+        <p> FEEDBACK</p>
+    </div>
+    <br>
+    <select name="REASON" id="subject" placeholder="_reason" required>
+        <option value="Interview Opportunity">Interview Opportunity</option>
+        <option value="Recruiter">Recruiter</option>
+        <option value="Resume Feedback">Resume Feedback</option>
+    </select>
+    <br>
+    <textarea type="text" name="_subject" optional placeholder="Message"></textarea>
+    <br>
+    <input type="text" name="number" placeholder="Contacts" required>
+    <br>
+    <button type="submit">Send</button>
+
+
+</footer>
 
 </html>
