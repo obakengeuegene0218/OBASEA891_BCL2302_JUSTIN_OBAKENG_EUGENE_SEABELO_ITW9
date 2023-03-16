@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./SRC/CSS/Style.css">
+    <link rel="stylesheet" type="text/css" href="./SRC/CSS/Media.css">
     <title>Digital Resume</title>
 </head>
 
@@ -13,9 +14,9 @@
     <div class="container">
         <header>
             <div class="Hero-contant">
-                <source srcset="Images/face.jpg" media="(min-width:300)">
-                <source srcset="Images/head and shoulders" media="(max-width:800px)">
-                <img src="./SRC/Images/me.jpg" class="profile photo" alt="My profile photo">
+                <source srcset="SRC/Images/head.jpg" media="(min-width:300)">
+                <source srcset="SRC/Images/head..jpg" media="(max-width:800px)">
+                <img src="./SRC/Images/profile.jpg" class="profile photo" alt="My profile photo">
                 <p class="name">OBAKENG EUGENE SEABELO</p>
 
                 <div class="content-box">
@@ -66,7 +67,7 @@
         </header>
         <section>
             <h1 class="Intro">ABOUT ME</h1>
-            <p>My name is Obakeng Eugene Seabelo am 25 years old and I am a junior software developer with no
+            <p id="intro">My name is Obakeng Eugene Seabelo am 25 years old and I am a junior software developer with no
                 experiance.I completed my software develpment classes at <a target="_blank"
                     href="https://learn.codespace.co.za/">Codespace Academy</a>. I am very
                 hardworking,passionate,couragous and dedicated. I believe that my fast learning abilities,commitment to
@@ -116,11 +117,11 @@
                     During 2020 in the month june I started my job as an assitant teacher in a school called Virginia
                     high school in the Free state province until april 2021
                     <br>
-                    2021-2022
+                </p>
+                <p>2021-2022
 
-                    In 2021 in the month november I became an assitant teacher at a school called st Michael's primary school in the North West province
-
-
+                    In 2021 in the month november I became an assitant teacher at a school called st Michael's primary
+                    school in the North West province
                 </p>
             </div>
         </section>
@@ -128,20 +129,31 @@
 </body>
 <footer>
     <div class="reason">
-        <p> FEEDBACK</p>
-    </div>
-    <br>
-    <select name="REASON" id="subject" placeholder="_reason" required>
-        <option value="Interview Opportunity">Interview Opportunity</option>
-        <option value="Recruiter">Recruiter</option>
-        <option value="Resume Feedback">Resume Feedback</option>
-    </select>
-    <br>
-    <textarea type="text" name="_subject" optional placeholder="Message"></textarea>
-    <br>
-    <input type="text" name="number" placeholder="Contacts" required>
-    <br>
-    <button type="submit">Send</button>
+        <p class="p2"> FEEDBACK</p>
+        <form action=" https://formsubmit.co/el/bovaco" method="POST">
+            <input type="text" name="name" placeholder="Full Names" required>
+            <br>
+            <input type="email" name="email" placeholder="Email" required>
+            <br>
+            <div class="reason">
+                <p class="p2"> Reason why you are viewing the resume</p>
+            </div>
+            <br>
+            <select name="REASON" id="subject" placeholder="_reason" required>
+                <option value="Interview Opportunity">Interview Opportunity</option>
+                <option value="Recruiter">Recruiter</option>
+                <option value="Resume Feedback">Resume Feedback</option>
+            </select>
+            <br>
+            <textarea type="text" name="_subject" optional placeholder="Message"></textarea>
+            <br>
+            <input type="text" name="number" placeholder="Contacts" required>
+            <br>
+            <button type="submit">Send</button>
+        </form>
+            <br>
+            <button><a href="#name"> BACK TO TOP</button>
+            
 
 
 </footer>
