@@ -17,7 +17,7 @@
                 <source srcset="SRC/Images/head.jpg" media="(min-width:300)">
                 <source srcset="SRC/Images/head..jpg" media="(max-width:800px)">
                 <img src="./SRC/Images/profile.jpg" class="profile photo" alt="My profile photo">
-                <p class="name">OBAKENG EUGENE SEABELO</p>
+                <p id="name">OBAKENG EUGENE SEABELO</p>
 
                 <div class="content-box">
                     <aside>
@@ -67,8 +67,8 @@
                     <p></p>
         </header>
         <section>
-            <h1 class="Intro">ABOUT ME</h1>
-            <p id="intro">My name is Obakeng Eugene Seabelo am 25 years old and I am a junior software developer with no
+            <h1 id="Intro">ABOUT ME</h1>
+            <p class="intro">My name is Obakeng Eugene Seabelo am 25 years old and I am a junior software developer with no
                 experiance.I completed my software develpment classes at <a target="_blank"
                     href="https://learn.codespace.co.za/">Codespace Academy</a>. I am very
                 hardworking,passionate,couragous and dedicated. I believe that my fast learning abilities,commitment to
@@ -77,32 +77,10 @@
                 <h2 id="education">Education</h2>
                 <h3>Intro to web at <a target="_blank" href="https://learn.codespace.co.za/">Codespace Academy</a></h3>
 
-                <h3><em> Qualification 1</em></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim id
-                    est
-                    laborum.</p>
-                <h3><em>Qualification 2</em></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim id
-                    est
-                    laborum.</p>
+                <h3><em> Matric</em></h3>
+                <p>National senior certificate at Sekete IV high school in 2017.</p>
+                <h3><em>Programming Fundamental</em></h3>
+                <p>Joined the royal impact and codespace programming fundemental program in 2022 from the month november to december.</p>
 
                 <h2 id="experience">Experience</h2>
                 <h3><em>Waiter</em></h3>
@@ -136,28 +114,36 @@
     <div class="reason">
         <p class="p2"> FEEDBACK</p>
         <form action=" https://formsubmit.co/el/bovaco" method="POST">
-            <input type="text" name="name" placeholder="Full Names" required>
-            <br>
-            <input type="email" name="email" placeholder="Email" required>
-            <br>
-            <div class="reason">
-                <p class="p2"> Reason why you are viewing the resume</p>
+            <div class="wrapper">
+                <div class="box">
+                    <input type="text" name="fname" id="fname" required>
+                    <label for="fname">First Name</label>
+                    </div>
+                    <div class="box">
+                        <input type="text" name="lname" id="lname" required>
+                        <label for="lname">Last Name</label>
+                        </div>
             </div>
-            <br>
-            <select name="REASON" id="subject" placeholder="_reason" required>
-                <option value="Interview Opportunity">Interview Opportunity</option>
-                <option value="Recruiter">Recruiter</option>
-                <option value="Resume Feedback">Resume Feedback</option>
-            </select>
-            <br>
-            <textarea type="text" name="_subject" optional placeholder="Message"></textarea>
-            <br>
-            <input type="text" name="number" placeholder="Contacts" required>
-            <br>
+            <div class="wrapper">
+                <div class="box">
+                    <input type="email" name="email" id="email" required>
+                    <label for="email">Email</label>
+                    </div>
+                <div class="box">
+                        <input type="text" name="tel" id="tel" required>
+                        <label for="tel">Mobile</label>
+                        </div>
+            </div>
+
+
+            <div class="wrapper">
+                <div class="box">
+                    <textarea type="text" name="text" optional placeholder="Message"></textarea>
+                    <label for="mes"></label>
             <button type="submit">Send</button>
         </form>
             <br>
-            <button><a href="#name"> BACK TO TOP</button>
+            <button><a href="#Intro"> BACK TO TOP</button>
             
 
 
