@@ -14,11 +14,12 @@
     <div class="container">
         <header>
             <div class="Hero-contant">
-                <source srcset="SRC/Images/head.jpg" media="(min-width:300)">
-                <source srcset="SRC/Images/head..jpg" media="(max-width:800px)">
-                <img src="./SRC/Images/profile.jpg" class="profile photo" alt="My profile photo">
+                <picture>
+                    <source srcset="SRC/Images/head..jpg" media="(min-width:600)">
+                    <source srcset="SRC/Images/head.jpg" media="(max-width:800px)">
+                    <img src="./SRC/Images/profile.jpg" class="profile photo" alt="My profile photo">
+                </picture>
                 <p id="name">OBAKENG EUGENE SEABELO</p>
-
                 <div class="content-box">
                     <aside>
                         <nav>
@@ -67,6 +68,7 @@
                     </ol>
                     <br>
                 </div>
+            </div>
         </header>
         <section>
             <h1 id="Intro">ABOUT ME</h1>
@@ -106,7 +108,7 @@
                     In 2021 in the month november I became an assitant teacher at a school called st Michael's primary
                     school in the North West province
                 </p>
-                <h3><em></em>Salesman</em></h3>
+                <h3></em>Salesman</em></h3>
                 <p>
                     In 2019 I joined a company called <a target="_blank"
                         href="https://grodirect.simplify.hr/">Gro-direct</a> as a sales person for a few months. The
@@ -117,38 +119,38 @@
     </div>
 </body>
 <footer>
-        <p class="p2"> FEEDBACK</p>
-        <form action=" https://formsubmit.co/el/bovaco" method="POST">
-            <div class="wrapper">
-                <div class="box">
-                    <input type="text" name="fname" id="fname" required>
-                    <label for="fname">First Name</label>
-                </div>
-                <div class="box">
-                    <input type="text" name="lname" id="lname" required>
-                    <label for="lname">Last Name</label>
-                </div>
+    <p class="p2"> FEEDBACK</p>
+    <form action=" https://formsubmit.co/el/bovaco" method="POST">
+        <div class="wrapper">
+            <div class="box">
+                <input type="text" name="fname" id="fname" required>
+                <label for="fname">First Name</label>
             </div>
-            <div class="wrapper">
-                <div class="box">
-                    <input type="email" name="email" id="email" required>
-                    <label for="email">Email</label>
-                </div>
-                <div class="box">
-                    <input type="text" name="tel" id="tel" required>
-                    <label for="tel">Mobile</label>
-                </div>
+            <div class="box">
+                <input type="text" name="lname" id="lname" required>
+                <label for="lname">Last Name</label>
             </div>
+        </div>
+        <div class="wrapper">
+            <div class="box">
+                <input type="email" name="email" id="email" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="box">
+                <input type="text" name="tel" id="tel" required>
+                <label for="tel">Mobile</label>
+            </div>
+        </div>
 
 
-            <div class="wrapper">
-                <div class="box">
-                    <textarea type="text" name="text" optional placeholder="Message"></textarea>
-                    <label for="mes"></label>
-                    <button type="submit">Send</button>
-        </form>
-        <br>
-        <button><a href="#Intro"> BACK TO TOP</button>
+        <div class="wrapper">
+            <div class="box">
+                <textarea type="text" name="text" optional placeholder="Message"></textarea>
+                <label for="mes"></label>
+                <button type="submit">Send</button>
+    </form>
+    <br>
+    <button><a href="#Intro"> BACK TO TOP</button>
 
 
 
