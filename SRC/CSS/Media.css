@@ -121,6 +121,74 @@
     height: 100%;
     width: 500vh;
   }
+  .wrapper{
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax
+    (250px.1fr));
+    grid-gap: 30px;
+    gap:30px;
+  }
+  
+  .wrapper .box{
+    width: 100px;
+    position: relative;
+    padding: 20px;
+  }
+  
+  
+  .wrapper .box input{
+    width: 100%;
+    font-size: 20px;
+    background: transparent;
+    border:none ;
+    outline: none;
+    border-bottom: 1px solid black;
+  }
+  .wrapper .box input:focus,
+  .wrapper .box input:valid{
+    padding: 20px 10px;
+    background:#FF9671 ;
+    margin-top: 10px;
+  
+  
+  }
+  
+  .wrapper .box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px;
+    transition: 0.5s linear;
+  
+  }
+  .wrapper .box input:focus,
+  .wrapper .box input:valid{
+    padding: 0;
+  }
+  
+  .wrapper .box textarea{
+    width: 100%;
+    font-size: 20px;
+    background: transparent;
+    border:none ;
+    outline: none;
+    border-bottom: 1px solid black;
+    transition: 0.5s linear;
+  }
+  .wrapper .box textarea:focus,
+  .wrapper .box textarea:valid{
+    padding: 20px 10px;
+    background:#FF9671 ;
+    margin-left: 10px;
+  }
+  .wrapper .box textarea:focus,
+  .wrapper .box textarea:valid{
+    padding: 0;
+  }
 
 
 }
@@ -255,6 +323,74 @@
     background-color: #F3C5FF;
     height: 100%;
     width: 500vh;
+  }
+  .wrapper{
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax
+    (250px.1fr));
+    grid-gap: 30px;
+    gap:30px;
+  }
+  
+  .wrapper .box{
+    width: 100px;
+    position: relative;
+    padding: 20px;
+  }
+  
+  
+  .wrapper .box input{
+    width: 100%;
+    font-size: 20px;
+    background: transparent;
+    border:none ;
+    outline: none;
+    border-bottom: 1px solid black;
+  }
+  .wrapper .box input:focus,
+  .wrapper .box input:valid{
+    padding: 20px 10px;
+    background:#FF9671 ;
+    margin-top: 10px;
+  
+  
+  }
+  
+  .wrapper .box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px;
+    transition: 0.5s linear;
+  
+  }
+  .wrapper .box input:focus,
+  .wrapper .box input:valid{
+    padding: 0;
+  }
+  
+  .wrapper .box textarea{
+    width: 100%;
+    font-size: 20px;
+    background: transparent;
+    border:none ;
+    outline: none;
+    border-bottom: 1px solid black;
+    transition: 0.5s linear;
+  }
+  .wrapper .box textarea:focus,
+  .wrapper .box textarea:valid{
+    padding: 20px 10px;
+    background:#FF9671 ;
+    margin-left: 10px;
+  }
+  .wrapper .box textarea:focus,
+  .wrapper .box textarea:valid{
+    padding: 0;
   }
 
 
@@ -393,6 +529,74 @@
     background-color: #F3C5FF;
     height: 100%;
     width: 500vh;
+  }
+  .wrapper{
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax
+    (250px.1fr));
+    grid-gap: 30px;
+    gap:30px;
+  }
+  
+  .wrapper .box{
+    width: 100px;
+    position: relative;
+    padding: 20px;
+  }
+  
+  
+  .wrapper .box input{
+    width: 100%;
+    font-size: 20px;
+    background: transparent;
+    border:none ;
+    outline: none;
+    border-bottom: 1px solid black;
+  }
+  .wrapper .box input:focus,
+  .wrapper .box input:valid{
+    padding: 20px 10px;
+    background:#FF9671 ;
+    margin-top: 10px;
+  
+  
+  }
+  
+  .wrapper .box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px;
+    transition: 0.5s linear;
+  
+  }
+  .wrapper .box input:focus,
+  .wrapper .box input:valid{
+    padding: 0;
+  }
+  
+  .wrapper .box textarea{
+    width: 100%;
+    font-size: 20px;
+    background: transparent;
+    border:none ;
+    outline: none;
+    border-bottom: 1px solid black;
+    transition: 0.5s linear;
+  }
+  .wrapper .box textarea:focus,
+  .wrapper .box textarea:valid{
+    padding: 20px 10px;
+    background:#FF9671 ;
+    margin-left: 10px;
+  }
+  .wrapper .box textarea:focus,
+  .wrapper .box textarea:valid{
+    padding: 0;
   }
 
 }
